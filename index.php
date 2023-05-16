@@ -20,7 +20,15 @@ if(isset($_POST['submit'])){
 ?>
 
 <html>
+
 <head>
+
+<style type="text/css">
+
+*{
+	color:red;
+}
+</style>
 </head>
 <body>
 
