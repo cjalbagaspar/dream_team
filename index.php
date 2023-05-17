@@ -1,6 +1,32 @@
+<?php
 
+if(isset($_POST['submit'])){
 
+    $name = $_POST['name'];
 
-Username: <input name="username" type="text"><br>
+    echo 'HELLO' .$name;
+}
+
+?>
+
+<html>
+
+<head>
+
+<style type="text/css">
+
+*{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<form action="" method="post">
+Username: <input name="name" type="text"><br>
 Password: <input name="password" type="password"><br>
-<button type="submit">Login</button>
+<input type="submit" name="submit">
+</form>
+
+</body>
+</html>
