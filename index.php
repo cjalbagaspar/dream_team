@@ -3,7 +3,7 @@
 session_start(); 
 
 /*
-ab
+abc
 */
 
 if(isset($_GET["logout"])){
