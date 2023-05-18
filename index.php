@@ -24,7 +24,6 @@
         text-align: center;
         width: 170;
         height: 100px;
-        align
 
         
 
