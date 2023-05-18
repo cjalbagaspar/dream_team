@@ -1,7 +1,7 @@
 <?php
 
 session_start(); 
-
+//TESTING
 
 if(isset($_GET["logout"])){
 	session_destroy();
@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 <head>
 <style type="text/css">
 .error{
-	color:blue;
+	color:pink;
 	font-weight:bold;
 }
 </style>
