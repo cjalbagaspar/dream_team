@@ -13,7 +13,7 @@
         display: inline-block;
         font-size: 16px;
     }
-
+/* Padding background */
     .pad {
         border: 6px solid black;
         background-color: red;
@@ -24,7 +24,6 @@
         text-align: center;
         width: 300px;
         height: 100px;
-
         
 
     }
