@@ -1,5 +1,20 @@
 <?php
 
+session_start(); 
+
+
+if(isset($_GET["logout"])){
+	session_destroy();
+	die();
+}
+
+if(isset($_SESSION['username'])){
+	
+	
+	header('Location: main.php');
+	die();
+}
+
 $msg = "";
 //this condition checked if username is correct
 
@@ -9,8 +24,10 @@ if (isset($_POST['submit'])) {
 
     if ($name === 'admin' && $password === 'admin') {
 		
-		session_start(); 
+		
         $_SESSION['username'] = $name;
+		$_SESSION['login'] = 1;
+		
         header('Location: main.php');
         exit();
 		
