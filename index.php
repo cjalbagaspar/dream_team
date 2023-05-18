@@ -2,6 +2,14 @@
 
 session_start(); 
 
+
+
+if(isset($_GET["logout"])){
+	session_destroy();
+	die("logout kana");
+}
+
+
  
 if(isset($_SESSION['username'])){
 	
