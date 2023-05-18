@@ -1,7 +1,5 @@
 <?php
 
-
-
 $msg = "";
 //this condition checked if username is correct
 
