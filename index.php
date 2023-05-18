@@ -2,14 +2,6 @@
 
 session_start(); 
 
-/*
-abc
-*/
-
-if(isset($_GET["logout"])){
-	session_destroy();
-	die("logout kana");
-}
 
 
  
