@@ -1,5 +1,6 @@
 <?php
-session_start();
+session_start(); 
+
 
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
@@ -10,7 +11,11 @@ if (isset($_POST['submit'])) {
         header('Location: main.php');
         exit();
     } else {
-        $error = 'LOGIN FAILED';
+        if ($name !== 'ron') {
+            echo 'Incorrect username';
+        } elseif ($password !== '123') {
+            echo 'Incorrect password';
+        }
     }
 }
 ?>
@@ -20,9 +25,7 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
 
-<?php if (isset($error)) { ?>
-    <p><?php echo $error; ?></p>
-<?php } ?>
+
 
 <form action="" method="post">
     Username: <input name="name" type="text"><br>
