@@ -2,6 +2,9 @@
 session_start(); 
 
 
+
+//this condition checked if username is correct
+
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $password = $_POST['password'];
