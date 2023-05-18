@@ -5,7 +5,7 @@ session_start();
 
 if(isset($_GET["logout"])){
 	session_destroy();
-	die();
+	die(123);
 }
  
 if(isset($_SESSION['username'])){
@@ -36,6 +36,7 @@ if (isset($_POST['submit'])) {
             $msg =  'Incorrect username';
         } elseif ($password !== '123') {
             $msg =  'Incorrect password';
+
         }
     }
 }
