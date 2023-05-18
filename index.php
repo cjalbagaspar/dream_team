@@ -39,10 +39,12 @@ if (isset($_POST['submit'])) {
 
 
 <form action="" method="post">
-	<div class="<?php if($msg) echo "error"; ?>"><?php echo $msg; ?></div>
+	
     Username: <input name="name" type="text"><br>
     Password: <input name="password" type="password"><br>
     <input type="submit" name="submit">
+	
+	<div class="<?php if($msg) echo "error"; ?>"><?php echo $msg; ?></div>
 </form>
 
 </body>
