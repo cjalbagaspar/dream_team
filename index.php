@@ -3,7 +3,10 @@
 session_start(); 
 
 
-
+if(isset($_GET["logout"])){
+	session_destroy();
+	die();
+}
  
 if(isset($_SESSION['username'])){
 	
