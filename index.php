@@ -2,7 +2,9 @@
 
 session_start(); 
 
-
+/*
+a
+*/
 
 if(isset($_GET["logout"])){
 	session_destroy();
