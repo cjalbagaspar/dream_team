@@ -1,5 +1,5 @@
 <?php
-session_start(); 
+
 
 
 $msg = "";
@@ -10,9 +10,12 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
 
     if ($name === 'admin' && $password === 'admin') {
+		
+		session_start(); 
         $_SESSION['username'] = $name;
         header('Location: main.php');
         exit();
+		
     } else {
         if ($name !== 'ron') {
             $msg =  'Incorrect username';
