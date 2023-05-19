@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
 <head>
 <style type="text/css">
 .error{
-	color:pink;
+	color:red;
 	font-weight:bold;
 }
 </style>
