@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> welcome_user
 <?php
 session_start();
 
@@ -31,6 +34,7 @@ h1{
 </form>
 </input>
 </body>
+<<<<<<< HEAD
 =======
 <html>
 
@@ -87,4 +91,6 @@ if(isset($_POST['submit'])){
 </body>
 
 >>>>>>> ec91246eff8f3256fbea6ac6a56ccdb696544855
+=======
+>>>>>>> welcome_user
 </html>

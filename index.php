@@ -52,6 +52,28 @@ if(isset($_POST['submit'])){
 
 ?>
 
+<<<<<<< HEAD
+=======
+<html>
+
+<head>
+
+<style type="text/css">
+
+*{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<form action="" method="post">
+Username: <input name="name" type="text"><br>
+Password: <input name="password" type="password"><br>
+<input type="submit" name="submit">
+</form>
+
+>>>>>>> welcome_user
 </body>
 
 </html>
