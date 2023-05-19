@@ -1,9 +1,7 @@
-<?php
+<html>
 
-session_start(); 
-//TESTING
+<head>
 
-<<<<<<< HEAD
     <style>
     .button {
         background-color: black;
@@ -20,7 +18,7 @@ session_start();
         border: 6px solid black;
         background-color: red;
         padding-top: 50px;
-        padding-right: 50px;
+        padding-right: 50px;z
         padding-bottom: 50px;
         padding-left: 50px;
         text-align: center;
@@ -50,70 +48,10 @@ if(isset($_POST['submit'])){
     $name = $_POST['name'];
 
     echo $name;
-=======
-if(isset($_GET["logout"])){
-	session_destroy();
-	die();
-}
- 
-if(isset($_SESSION['username'])){
-	
-	
-	header('Location: main.php');
-	die();
->>>>>>> dev
 }
 
-$msg = "";
-//this condition checked if username is correct
-
-if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
-    $password = $_POST['password'];
-
-    if ($name === 'admin' && $password === 'admin') {
-		
-		
-        $_SESSION['username'] = $name;
-		$_SESSION['login'] = 1;
-		
-        header('Location: main.php');
-        exit();
-		
-    } else {
-        if ($name !== 'ron') {
-            $msg =  'Incorrect username';
-        } elseif ($password !== '123') {
-            $msg =  'Incorrect password';
-        }
-    }
-}
-?> 
-
-
-
-<html>
-<head>
-<style type="text/css">
-.error{
-	color:pink;
-	font-weight:bold;
-}
-</style>
-</head>
-<body>
-
-
-
-
-<form action="" method="post">
-	
-    Username: <input name="name" type="text"><br>
-    Password: <input name="password" type="password"><br>
-    <input type="submit" name="submit">
-	<div class="<?php if($msg) echo "error"; ?>"><?php echo $msg; ?></div>
-	
-</form>
+?>
 
 </body>
+
 </html>
