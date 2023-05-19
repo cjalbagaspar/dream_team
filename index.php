@@ -32,9 +32,9 @@ if (isset($_POST['submit'])) {
         exit();
 		
     } else {
-        if ($name !== 'ron') {
+        if ($name !== 'admin') {
             $msg =  'Incorrect username';
-        } elseif ($password !== '123') {
+        } elseif ($password !== 'admin') {
             $msg =  'Incorrect password';
 
         }
