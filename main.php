@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 <html>
 
 <head>
 
     <style>
     .button {
-        background-color: white;
+        background-color: black;
         /* Green */
         border: none;
         color: white;
@@ -22,6 +21,9 @@
         padding-right: 50px;
         padding-bottom: 50px;
         padding-left: 50px;
+    
+        
+
     }
     </style>
 </head>
@@ -50,38 +52,4 @@ if(isset($_POST['submit'])){
 
 </body>
 
-=======
-<?php
-session_start();
-
-if(isset($_GET['logout'])){
-	
-	header('Location: index.php');
-	session_destroy();
-	exit();
-	
-}
-?>
-
-<html>
-<head>
-<style type="text/css">
-
-h1{
-	font-size: 100px;
-	text-align: center;
-}
-</style>
-</head>
-<body>
-
-<h1>WELCOME HABADUDI</h1>
-
-<form action="" method="get">
-
-<button type="submit" name="logout">logout</button>
-</form>
-</input>
-</body>
->>>>>>> dev
 </html>
