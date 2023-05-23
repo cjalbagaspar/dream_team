@@ -1,28 +1,48 @@
+<?php
+session_start(); 
+
+
+
+//this condition checked if username is correct
+
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $password = $_POST['password'];
+
+    if ($name === 'ron' && $password === '123') {
+        $_SESSION['username'] = $name;
+        header('Location: main.php');
+        exit();
+    } else {
+        if ($name !== 'ron') {
+            echo 'Incorrect username';
+        } elseif ($password !== '123') {
+            echo 'Incorrect password';
+        }
+    }
+}
+?>
+
 <html>
 
 <head>
 
-    <style>
-    .button {
-        background-color: black;
-        /* Green */
-        border: none;
-        color: white;
-        padding: 10px 10px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-/* Padding background */
-    .pad {
-        border: 6px solid black;
-        background-color: red;
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
-        text-align: center;
-        width: 300px;
-        height: 100px;
-    }
- 
+<style type="text/css">
+
+*{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+
+
+<form action="" method="post">
+    Username: <input name="name" type="text"><br>
+    Password: <input name="password" type="password"><br>
+    <input type="submit" name="submit">
+</form>
+
+</body>
+</html>
