@@ -46,11 +46,20 @@ if (isset($_POST['submit'])) {
 
 
 <html>
+
 <head>
+
 <style type="text/css">
 .error{
 	color:red;
 	font-weight:bold;
+=======
+
+<style type="text/css">
+
+*{
+	color:red;
+
 }
 </style>
 </head>
