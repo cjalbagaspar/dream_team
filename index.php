@@ -24,34 +24,4 @@
         text-align: center;
         width: 300px;
         height: 100px;
-        
-
     }
-    </style>
-</head>
-
-<body>
-
-    <div class="pad">
-        <form action="" method="post">
-            Username: <input name="name" type="text"><br>
-            Password: <input name="password" type="password"><br>
-            <input type="submit" class="button" name="submit">
-        </form>
-    </div>
-
-    <?php
-
-
-if(isset($_POST['submit'])){
-
-    $name = $_POST['name'];
-
-    echo $name;
-}
-
-?>
-
-</body>
-
-</html>
