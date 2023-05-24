@@ -96,8 +96,6 @@ if (isset($_POST['submit'])) {
 
 
 
-
-
 <div class="pad">
         <form action="" method="post">
             Username: <input name="name" type="text"><br>
