@@ -70,6 +70,7 @@ if (isset($_POST['submit'])) {
 <body>
 
 <h1>ADDITION</h1>
+<h2>ENTER YOUR CREDENTIALS</h2>
 
 <form action="" method="post">
     Username: <input name="name" type="text"><br>
