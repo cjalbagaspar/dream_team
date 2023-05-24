@@ -4,7 +4,6 @@ session_start();
 
 
 
-
 if(isset($_GET["logout"])){
 	session_destroy();
 	die(123);
@@ -61,6 +60,30 @@ if (isset($_POST['submit'])) {
 	font-weight:bold;
 }
 
+.pad{
+    border: 6px solid red;
+        background-color: green;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        text-align: center;
+        width: 300px;
+        height: 100px;
+}
+
+.button{
+    background-color: pink;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+
+}
 </style>
 </head>
 <body>
