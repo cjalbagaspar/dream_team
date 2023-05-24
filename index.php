@@ -31,10 +31,13 @@ if (isset($_POST['submit'])) {
         exit();
     } else {
 
+
         if ($name !== 'ron') {
             echo 'Incorrect username';
         } elseif ($password !== '123') {
             echo 'Incorrect password';
+
+
 
         if ($name !== 'admin') {
             $msg =  'Incorrect username';
@@ -64,13 +67,20 @@ if (isset($_POST['submit'])) {
 
 
 
+
+
+
 }
 </style>
 </head>
 <body>
 
 <h1>ADDITION</h1>
+
 <h2>ENTER YOUR CREDENTIALS</h2>
+
+
+
 
 <form action="" method="post">
     Username: <input name="name" type="text"><br>
