@@ -92,6 +92,8 @@ if (isset($_POST['submit'])) {
 
 <h2>ENTER YOUR CREDENTIALS</h2>
 
+<h3>MAG LOG IN KA NA PARA MAKAPASOK KA SA WELCOME</h3>
+
 
 
 
