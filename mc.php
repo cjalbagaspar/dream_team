@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
 
 .pad{
     border: 6px solid red;
-        background-color: violet;
+        background-color: green;
         padding-top: 50px;
         padding-right: 50px;
         padding-bottom: 50px;
@@ -94,7 +94,7 @@ if (isset($_POST['submit'])) {
 
 <h3>MAG LOG IN KA NA PARA MAKAPASOK KA SA WELCOME</h3>
 
-<h4>SABIHIN MONA KAY SIR NA HINDI NA TAYO SASAMA</h4>
+
 
 
 
