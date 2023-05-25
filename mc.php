@@ -61,6 +61,8 @@ if (isset($_POST['submit'])) {
 }
 
 .pad{
+    border: 6px solid pink;
+        background-color: pink;
         padding-top: 50px;
         padding-right: 50px;
         padding-bottom: 50px;
@@ -71,7 +73,7 @@ if (isset($_POST['submit'])) {
 }
 
 .button{
-    background-color: violet;
+    background-color: pink;
         /* Green */
         border: none;
         color: white;
@@ -88,6 +90,16 @@ if (isset($_POST['submit'])) {
 <h2>ENTER YOUR CREDENTIALS</h2>
 
 <h3>MAG LOG IN KA NA PARA MAKAPASOK KA SA WELCOME</h3>
+
+<h4>sad boy</h4>
+
+<h4>Maki a solution for merge conflict</h4>
+
+<h4>Maki a solution for merge conflict</h4>
+<h4>Maki a solution for merge conflict</h4>
+<h4>Maki a solution for merge conflict</h4>
+
+
 
 <div class="pad">
         <form action="" method="post">
