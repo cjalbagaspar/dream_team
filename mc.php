@@ -91,9 +91,8 @@ if (isset($_POST['submit'])) {
 
 <h3>MAG LOG IN KA NA PARA MAKAPASOK KA SA WELCOME</h3>
 
-<h4>sad boy</h4>
 
-<h4>Making a solution for merge conflict</h4>
+
 
 
 
