@@ -4,7 +4,6 @@ session_start();
 
 
 
-
 if(isset($_GET["logout"])){
 	session_destroy();
 	die(123);
@@ -55,64 +54,66 @@ if (isset($_POST['submit'])) {
 
 <head>
 
-<style type="text/css">
-.error{
-	color:red;
-	font-weight:bold;
-}
-
-*{
-	color:red;
-
-
-
-
-
-
-
-}
-.button {
-        background-color: black;
-        /* Green */
-        border: none;
-        color: white;
-        padding: 10px 10px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
+    <style type="text/css">
+    .error {
+        color: red;
+        font-weight: bold;
     }
-/* Padding background */
+
     .pad {
         border: 6px solid black;
-        background-color: red;
-        padding-top: 50px;
-        padding-right: 50px;z
-        padding-bottom: 50px;
-        padding-left: 50px;
+        background-color: pink;
         text-align: center;
-        width: 300px;
-        height: 100px;
-        
+        margin: auto;
+        height: 120px;
+        width: 160px;
+        padding: 50px;
 
     }
-</style>
+
+    .button {
+        background-color: grey;
+        /* Green */
+        color: black;
+        padding: 3px 3px;
+        border: solid black 2px;
+        margin-top: 20px;
+        margin-left: -110px;
+    }
+
+    .align_text {
+        margin-top: 130px;
+        text-align: center;
+    }
+    input {
+        color: red;
+        background-color: white;
+    }
+    </style>
 </head>
+
 <body>
 
-<h1>ADDITION</h1>
+    <div class="align_text">
 
-<h2>ENTER YOUR CREDENTIALS</h2>
+        <h2>ENTER YOUR CREDENTIALS</h2>
 
+        <h2>User:ron <br> pass:123</h2>
 
+        <h2>testing!!</h2>
 
+        <h2>testing!!</h2>
+        <h2>testing!!</h2>
+        <h2>testing!!</h2>
+    </div>
 
-<div class="pad">
+    <div class="pad">
         <form action="" method="post">
             Username: <input name="name" type="text"><br>
             Password: <input name="password" type="password"><br>
             <input type="submit" class="button" name="submit">
         </form>
     </div>
-
 </body>
+
 </html>
