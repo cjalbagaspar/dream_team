@@ -99,12 +99,6 @@ if (isset($_POST['submit'])) {
         <h2>ENTER YOUR CREDENTIALS</h2>
 
         <h2>User:ron <br> pass:123</h2>
-
-        <h2>testing!!</h2>
-
-        <h2>testing!!</h2>
-        <h2>testing!!</h2>
-        <h2>testing!!</h2>
     </div>
 
     <div class="pad">
