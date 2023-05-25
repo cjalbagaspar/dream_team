@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
 }
 
 .pad{
-    border: 6px solid violet;
+    border: 6px solid pink;
         background-color: pink;
         padding-top: 50px;
         padding-right: 50px;
@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
 }
 
 .button{
-    background-color: violet;
+    background-color: pink;
         /* Green */
         border: none;
         color: white;
@@ -93,7 +93,7 @@ if (isset($_POST['submit'])) {
 
 <h4>sad boy</h4>
 
-<h4>Maki a solution for merge conflict</h4>
+<h4>Making a solution for merge conflict</h4>
 
 
 
