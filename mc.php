@@ -54,57 +54,58 @@ if (isset($_POST['submit'])) {
 
 <head>
 
-<style type="text/css">
-.error{
-	color:red;
-	font-weight:bold;
-}
+    <style type="text/css">
+    .error {
+        color: red;
+        font-weight: bold;
+    }
 
-.pad{
-    border: 6px solid orange;
+    .pad {
+        border: 6px solid green;
         background-color: pink;
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
         text-align: center;
         width: 300px;
         height: 100px;
         margin: auto;
         width: 20%;
         height: 20%;
-        padding: 10px;
-}
+        padding: 20px;
 
-.button{
-    background-color: red;
+
+    }
+
+    .button {
+        background-color: grey;
         /* Green */
         border: none;
         color: blue;
         padding: 10px 10px;
         text-decoration: none;
         display: inline-block;
-}
-</style>
+        margin: 0;
+
+    }
+
+    .align_text {
+        text-align: center;
+    }
+    </style>
 </head>
+
 <body>
 
-<h1>ADDITION</h1>
+    <div class="align_text">
 
-<h2>ENTER YOUR CREDENTIALS</h2>
+        <h2>ENTER YOUR CREDENTIALS</h2>
 
-<h3>MAG LOG IN KA NA PARA MAKAPASOK KA SA WELCOME</h3>
+        <h2>User:ron <br> pass:123</h2>
 
-<h4>sad boy</h4>
-
-<h4>Making a solution for merge conflict</h4>
-
-<h5>kabisado kona!</h5>
+    </div>
 
 
 
 
-<div class="pad">
+    <div class="pad">
         <form action="" method="post">
             Username: <input name="name" type="text"><br>
             Password: <input name="password" type="password"><br>
@@ -113,4 +114,5 @@ if (isset($_POST['submit'])) {
     </div>
 
 </body>
+
 </html>
