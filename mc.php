@@ -61,8 +61,8 @@ if (isset($_POST['submit'])) {
 }
 
 .pad{
-    border: 6px solid brown;
-        background-color: yellow;
+    border: 6px solid blue;
+        background-color: green;
         padding-top: 50px;
         padding-right: 50px;
         padding-bottom: 50px;
