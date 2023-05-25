@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
         padding: 10px 10px;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: bold;
 
 }
