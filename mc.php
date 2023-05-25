@@ -61,33 +61,33 @@ if (isset($_POST['submit'])) {
     }
 
     .pad {
-        border: 6px solid green;
+        border: 6px solid black;
         background-color: pink;
         text-align: center;
-        width: 300px;
-        height: 100px;
         margin: auto;
-        width: 20%;
-        height: 20%;
-        padding: 20px;
-
+        height: 120px;
+        width: 160px;
+        padding: 50px;
 
     }
 
     .button {
         background-color: grey;
         /* Green */
-        border: none;
-        color: blue;
-        padding: 10px 10px;
-        text-decoration: none;
-        display: inline-block;
-        margin: 0;
-
+        color: black;
+        padding: 3px 3px;
+        border: solid black 2px;
+        margin-top: 20px;
+        margin-left: -110px;
     }
 
     .align_text {
+        margin-top: 130px;
         text-align: center;
+    }
+    input {
+        color: red;
+        background-color: white;
     }
     </style>
 </head>
@@ -100,12 +100,7 @@ if (isset($_POST['submit'])) {
 
         <h2>User:ron <br> pass:123</h2>
 
-        <h3>testing!</h3>
-
     </div>
-
-
-
 
     <div class="pad">
         <form action="" method="post">
@@ -114,7 +109,6 @@ if (isset($_POST['submit'])) {
             <input type="submit" class="button" name="submit">
         </form>
     </div>
-
 </body>
 
 </html>
