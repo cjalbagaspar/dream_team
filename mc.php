@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
 }
 
 .pad{
-    border: 6px solid red;
+    border: 6px solid blue;
         background-color: green;
         padding-top: 50px;
         padding-right: 50px;
@@ -73,16 +73,13 @@ if (isset($_POST['submit'])) {
 }
 
 .button{
-    background-color: pink;
+    background-color: violet;
         /* Green */
         border: none;
         color: white;
         padding: 10px 10px;
         text-decoration: none;
         display: inline-block;
-        font-size: 13px;
-        font-weight: bold;
-
 }
 </style>
 </head>
@@ -93,6 +90,8 @@ if (isset($_POST['submit'])) {
 <h2>ENTER YOUR CREDENTIALS</h2>
 
 <h3>MAG LOG IN KA NA PARA MAKAPASOK KA SA WELCOME</h3>
+
+<h4>sad boy</h4>
 
 
 
