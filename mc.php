@@ -70,6 +70,10 @@ if (isset($_POST['submit'])) {
         text-align: center;
         width: 300px;
         height: 100px;
+        margin: auto;
+        width: 20%;
+        height: 20%;
+        padding: 10px;
 }
 
 .button{
