@@ -95,6 +95,10 @@ if (isset($_POST['submit'])) {
 
 <h4>Maki a solution for merge conflict</h4>
 
+<h4>Maki a solution for merge conflict</h4>
+<h4>Maki a solution for merge conflict</h4>
+<h4>Maki a solution for merge conflict</h4>
+
 
 
 <div class="pad">
