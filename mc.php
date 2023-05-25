@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
 }
 
 .pad{
-    border: 6px solid violet;
+    border: 6px solid brown;
         background-color: yellow;
         padding-top: 50px;
         padding-right: 50px;
@@ -73,16 +73,13 @@ if (isset($_POST['submit'])) {
 }
 
 .button{
-    background-color: pink;
+    background-color: violet;
         /* Green */
         border: none;
         color: white;
         padding: 10px 10px;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        font-weight: bold;
-
 }
 </style>
 </head>
