@@ -54,60 +54,54 @@ if (isset($_POST['submit'])) {
 
 <head>
 
-    <style type="text/css">
-    .error {
-        color: red;
-        font-weight: bold;
-    }
+<style type="text/css">
+.error{
+	color:red;
+	font-weight:bold;
+}
 
-    .pad {
-        border: 6px solid black;
-        background-color: pink;
+.pad{
+    border: 6px solid red;
+        background-color: green;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
         text-align: center;
-        margin: auto;
-        height: 120px;
-        width: 160px;
-        padding: 50px;
+        width: 300px;
+        height: 100px;
+}
 
-    }
-
-    .button {
-        background-color: grey;
+.button{
+    background-color: pink;
         /* Green */
-        color: black;
-        padding: 3px 3px;
-        border: solid black 2px;
-        margin-top: 20px;
-        margin-left: -110px;
-    }
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
 
-    .align_text {
-        margin-top: 130px;
-        text-align: center;
-    }
-    input {
-        color: red;
-        background-color: white;
-    }
-    </style>
+}
+</style>
 </head>
-
 <body>
 
-    <div class="align_text">
+<h1>ADDITION</h1>
 
-        <h2>ENTER YOUR CREDENTIALS</h2>
+<h2>ENTER YOUR CREDENTIALS</h2>
 
-        <h2>User:ron <br> pass:123</h2>
-    </div>
 
-    <div class="pad">
+
+
+<div class="pad">
         <form action="" method="post">
             Username: <input name="name" type="text"><br>
             Password: <input name="password" type="password"><br>
             <input type="submit" class="button" name="submit">
         </form>
     </div>
-</body>
 
+</body>
 </html>
