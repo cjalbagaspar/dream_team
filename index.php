@@ -3,7 +3,23 @@ session_start();
 
 
 
-//this condition checked if username is correct
+
+
+if(isset($_GET["logout"])){
+	session_destroy();
+	die(123);
+}
+ 
+if(isset($_SESSION['username'])){
+	
+	
+	header('Location: main.php');
+	die();
+}
+
+
+$msg = "";
+
 
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
@@ -14,12 +30,24 @@ if (isset($_POST['submit'])) {
         header('Location: main.php');
         exit();
     } else {
+
+
         if ($name !== 'ron') {
             echo 'Incorrect username';
         } elseif ($password !== '123') {
             echo 'Incorrect password';
+
+
+
+        if ($name !== 'admin') {
+            $msg =  'Incorrect username';
+        } elseif ($password !== 'admin') {
+            $msg =  'Incorrect password';
+
+
         }
     }
+}
 }
 ?>
 
@@ -28,13 +56,29 @@ if (isset($_POST['submit'])) {
 <head>
 
 <style type="text/css">
+.error{
+	color:red;
+	font-weight:bold;
+}
 
 *{
 	color:red;
+
+
+
+
+
+
+
 }
 </style>
 </head>
 <body>
+
+<h1>ADDITION</h1>
+
+<h2>ENTER YOUR CREDENTIALS</h2>
+
 
 
 
